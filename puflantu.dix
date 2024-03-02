@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+    <sdefs>
+        <sdef n="n"/>
+        <sdef n="sg"/>
+        <sdef n="dl"/>
+        <sdef n="pl"/>
+    </sdefs>
+    <pardefs>
+        <pardef n="std_n"><e><
+    </pardefs>
+    <section id="main" type="standard">
+        <e lm="toreli"><i>torel</i><par n="std_n"/></e>
+    </section>
+</dictionary>
