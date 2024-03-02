@@ -8,9 +8,13 @@
         <sdef n="pl"/>
     </sdefs>
     <pardefs>
-        <pardef n="std_n"><e><
+        <pardef n="torel/i_n">
+            <e><p><l>i</l><r><s n="n"/><s n="sg"/></r></p></e>
+            <e><p><l>w</l><r><s n="n"/><s n="dl"/></r></p></e>
+            <e><p><l>we</l><r><s n="n"/><s n="pl"/></r></p></e>
+        </pardef>
     </pardefs>
     <section id="main" type="standard">
-        <e lm="toreli"><i>torel</i><par n="std_n"/></e>
+        <e lm="torel"><i>torel</i><par n="torel/i_n"/></e>
     </section>
 </dictionary>

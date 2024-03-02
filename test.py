@@ -1,2 +1,4 @@
-import yaml
-import nltk
+import apertium
+a = apertium.Analyzer('puflantu')
+a.analyze('toreli')
+
