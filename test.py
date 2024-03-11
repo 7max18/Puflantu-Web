@@ -13,7 +13,7 @@ def clean_input(sentence):
     for word in sentence:
         word = word.strip()
         word = word.lower()
-        word = re.sub(r"[^a-zA-Z0-9']+", " ", word)
+        word = re.sub(r"[^a-zA-Z0-9']+", "", word)
         cleaned_sentence.append(word)
     return cleaned_sentence
 
@@ -32,7 +32,7 @@ def translate_input(ibm_model, source_text):
         if translated_word is not None:
             translated_words.append(translated_word)
     translated_text = ' '.join(translated_words)
-    print("Translated text:", translated_text)
+    print(f"\"{source_text}\" in Puflantu is \"{translated_text}\" in English.")
 
 df = pd.read_csv("puflantu_eng_dict.csv")
 english_words = df['English'].to_list()
@@ -40,5 +40,5 @@ puflantu_words = df['Puflantu'].to_list()
 
 translation_model = train_translation_model(puflantu_words, english_words)
 
-translate_input(translation_model, "torelwe")
+translate_input(translation_model, "Torelwe wlwmoc.")
 
