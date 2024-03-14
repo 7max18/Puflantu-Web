@@ -1,4 +1,4 @@
-﻿Puflantu,English
+﻿Puflantu,English,Class
 'agjeyuf,don't-overcook
 'ajoden,put-them
 'ajoten,put-it
@@ -712,7 +712,7 @@ kodar,they-are-added
 kodotana,calling-it
 kofi,coffee
 kohan,toast
-kolarvu,bread
+kolarvu,bread,0
 kolarvu'fi,breadier
 kolarvu'w,breadiest
 kolarvwe,breads
@@ -1395,11 +1395,11 @@ topexwmi,remained
 topodex,leave-them-behind
 topodexas,leaving-them-behind
 topolex,that-is-left-behind
-toreli,cookie
+toreli,cookie,0
 toreli',cookiest
 toreli'fi,cookier
 toreli'fwe,cookier
-torelwe,cookies
+torelwe,cookies,0
 tozqwyo,versatile
 turakolu,pasta
 tusvo,bus
@@ -1556,7 +1556,7 @@ wloloc,that-is-eaten
 wloloca,eating-of-it
 wlotoc,it-is-eaten
 wlwmeyodoc,I-don't-eat-them
-wlwmoc,I-eat
+wlwmoc,I-eat,1
 wm,I
 wmpigomu,apple
 wmpigomwe,apples
