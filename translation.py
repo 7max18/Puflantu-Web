@@ -33,7 +33,7 @@ def translate_input(ibm_model, source_text):
     translated_text = ' '.join(translated_words)
     print(f"\"{source_text}\" in Puflantu is \"{translated_text}\" in English.")
 
-df = pd.read_csv("tiny_dict.csv")
+df = pd.read_csv("puflantu_eng_dict.csv")
 english_words = df['English'].to_list()
 puflantu_words = df['Puflantu'].to_list()
 word_classes = df['Class'].to_list()
